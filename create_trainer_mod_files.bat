@@ -30,7 +30,7 @@ cd %wd%
 git init
 git add .
 git commit -m "initial file values"
-git apply ..\trainer_mod.patch
+git apply ..\trainer_mod.patch--reject
 
 echo The modded files were succesfully generated. You can follow the rest of the instructions
 echo Press any key to exit
